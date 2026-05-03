@@ -42,7 +42,7 @@ cursor-style-blink = false
 window-padding-y = 0 
 # window-padding-balance = true
 background = #111111 
-foreground = #8D887E 
+foreground = #BDB395 
 #
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
