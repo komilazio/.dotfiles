@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="bira"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,17 +78,10 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export PATH="$HOME/opt/Odin:$PATH"
-export PATH="$HOME/opt/zig-x86-linux-0.16.0-dev.1859+212968c57/:$PATH"
-export PATH="$HOME/.nix-profile/bin:$PATH"
-export PATH="$HOME/.config/emacs/bin:$PATH"
-# export PATH="$HOME/opt/torctl-0.5.7:$PATH"
-export XDG_DATA_DIRS=$HOME/.nix-profile/share:$XDG_DATA_DIRS
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+export EDITOR='vi'
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vi'
@@ -110,5 +103,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi="nvim"
+#
 alias x="clear"
+# alias vi="nvim"
