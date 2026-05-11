@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 required_tools=(nvim pstree realpath)
 missing=()
